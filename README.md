@@ -20,9 +20,13 @@ SpecialK cannot be used to fix this because the resolution does not come from a 
 Screens:
 
 https://ibb.co/5x2FjXYL
+
 https://ibb.co/vvk1Sbp8
+
 https://ibb.co/v4hxcb5Z
+
 https://ibb.co/WNdM7Mns
+
 https://ibb.co/DPNhgxsT
 
 ## Requirements
