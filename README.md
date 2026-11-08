@@ -12,7 +12,7 @@ You'll see a sharper, more stable image: less shimmer on foliage and tiles, and 
 
 Obviously, no game code here. 
 
-The game natively runs the Switch 2 version of NVIDIA’s DLSS, driven through the console’s graphics API (NVN2). So far this variant is, deemed 'tiny DLSS' by Digital Foundry, is best known from games like FastFusion. One routine sets the network up, and a second one runs it each frame. Picking apart the game for this mod validates Digital Foundry's findings: 
+The game natively runs the Switch 2 version of NVIDIA’s DLSS, driven through the console’s graphics API (NVN2). So far this variant, deemed 'tiny DLSS' by Digital Foundry, is best known from games like FastFusion. One routine sets the network up, and a second one runs it each frame. Picking apart the game for this mod validates Digital Foundry's findings: 
 Handheld upscales 960x540 --> 1920x1080, Docked upsacles 1280x720 --> 2560x1440.  The 'network' is a series of GPU compute passes. Its maths uses the console’s tensor-core matrix instructions (HMMA). Its inputs are low-resolution images, depth, motion vectors and sub-pixel jitter. Eglantine recognises the game’s DLSS work on the GPU and swaps the console network for NVIDIA DLSS on your PC (or FSR 3.1 on cards without DLSS), feeding it those same inputs. 
 However, the emulator stays fixed at a 1:2 ratio. 
 SpecialK cannot be used to fix this because the resolution does not come from a request to DLSS. This mod edits the game's resolution tables. The DLSS Quality patch raises the render resolution to two-thirds of the output (1280×720 in handheld, 1706×960 docked).  glantine sees the new ratio and switches DLSS to the matching mode automatically, so Quality appears as mode 3 in logs. 
