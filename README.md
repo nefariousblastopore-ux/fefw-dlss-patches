@@ -17,6 +17,14 @@ Handheld upscales 960x540 --> 1920x1080, Docked upsacles 1280x720 --> 2560x1440.
 However, the emulator stays fixed at a 1:2 ratio. 
 SpecialK cannot be used to fix this because the resolution does not come from a request to DLSS. This mod edits the game's resolution tables. The DLSS Quality patch raises the render resolution to two-thirds of the output (1280×720 in handheld, 1706×960 docked).  glantine sees the new ratio and switches DLSS to the matching mode automatically, so Quality appears as mode 3 in logs. 
 
+Screens:
+
+https://ibb.co/5x2FjXYL
+https://ibb.co/vvk1Sbp8
+https://ibb.co/v4hxcb5Z
+https://ibb.co/WNdM7Mns
+https://ibb.co/DPNhgxsT
+
 ## Requirements
 
 - **Game build:** these patches apply to main build ID `DB93B0125F4850601D61C3EDDE012F8EB2ECFE77` only. On any other version the emulator silently skips them. To check, look for `Applying IPSwitch patch from mod "...DLSS Quality"` in the log (see Troubleshooting).
