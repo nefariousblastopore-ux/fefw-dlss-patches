@@ -1,0 +1,11 @@
+@nsobid-DB93B0125F4850601D61C3EDDE012F8EB2ECFE77
+@flag offset_shift 0x100
+
+// Fire Emblem Fortune's Weave - DLSS Quality: DLSS input raised to 2/3 of output (this build only)
+// Handheld profile 960x540 -> 1280x720 (output 1920x1080); docked profile 1280x720 -> 1706x960 (output 2560x1440)
+@enabled
+00AA94CC 09A080D2
+00AA94E0 095AC0F2
+00AA90B0 4AD580D2
+00AA90CC 0A78C0F2
+@stop
