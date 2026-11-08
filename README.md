@@ -59,10 +59,10 @@ Choose the combination whose output matches your monitor exactly, so nothing is 
 | 3440×1440 (ultrawide) | Docked | 1× | 2560×1440 | 1706×960 / 2560×1440 | The game is 16:9, so expect pillarbox bars. |
 | 3840×2160 (4K) | Docked | 1.5× | 3840×2160 | 2559×1440 / 3840×2160 | Native match. Quality recommended. |
 | 3840×2160 (4K) | Handheld | 2× | 3840×2160 | 2560×1440 / 3840×2160 | Same output. Handheld mode may load some lower-detail assets. |
-| 4K, supersampled | Docked | 2× | 5120×2880 | 3412×1920 / 5120×2880 | Downsampled to 4K. Very heavy; RTX 4090-class only. |
+| 4K, supersampled | Docked | 2× | 5120×2880 | 3412×1920 / 5120×2880 | Downsampled to 4K. Very heavy; 60-80% usage on a 4090 |
 
 - **Not sure which to pick?** Use **DLSS Quality** at the native-match row for your monitor.
-- **Want maximum sharpness at 1080p or 1440p with GPU headroom?** Use **DLAA** instead.
+- **Want maximum sharpness at 1080p or 1440p with GPU headroom?** Use **DLAA** instead. I recommend that you pair this with Eglantine's built-in Frame Generation and Special K's HDR. You do not need to uncap the framerate with ctrl+u for Frame Generation to take effect.
 
 ## Recommended companion settings (Eglantine)
 
